@@ -48,7 +48,7 @@ h6 {
 
 
 .hero {
-    background: rgb(238, 239, 241);
+    background: rgb(222, 255, 213);
     padding-top: 56px;
     min-height: 700px;
     padding-bottom: 73px;
@@ -97,7 +97,7 @@ h6 {
 }
 
 .nav__link:hover {
-    color: rgb(52, 84, 122);
+    color: rgb(52, 122, 59);
 }
 
 .hero__content {
@@ -154,7 +154,7 @@ h6 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    background: #34547a;
+    background: #146b55;
     padding: 25px 40px;
 }
 
@@ -169,6 +169,7 @@ h6 {
     padding-top: 119px;
     padding-bottom: 100px;
     text-align: center;
+    background-color: rgb(177, 254, 255);
 }
 
 .container {}
@@ -188,7 +189,7 @@ h6 {
 .subtile {}
 
 .achievements {
-    background: #34547a;
+    background: #146b55;
     max-width: 100%;
     height: 250px;
     margin: 0 auto;
@@ -210,12 +211,90 @@ h6 {
     width: 141px;
     height: 50px;
     color: white;
+    align-items: flex-end;
 }
 
-.achievement__icon {}
+.achievement__icon {
+    display: flex;
+    align-items: flex-end;
+}
 
 .achievement__desc {}
 
-.achievement__count {}
+.achievement__count {
+    margin-bottom: 10px;
+}
 
 .achievement__text {}
+
+
+
+
+
+
+
+
+
+.skills {
+    padding: 100px;
+    background-color: rgb(212, 229, 255);
+}
+
+
+
+.skills__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__desc {
+    width: 50%;
+    padding-top: 100px;
+}
+
+
+
+.skills__title {}
+
+.skills__list {}
+
+.skills__item {
+    margin-bottom: 26px;
+}
+
+.skill {}
+
+.skill__desc {
+
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #727272;
+}
+
+
+.skill__meter::-webkit-meter-bar {
+    width: 445px;
+    height: 4px;
+    border-radius: 0px;
+    border: none;
+    background: #c4c4c4;
+
+}
+
+
+.skill__meter::-webkit-meter-optimum-value {
+    background: #34547a;
+}
+
+
+.skills__img-wrap {}
+
+.skills__img {
+    width: 555px;
+    height: 450px;
+    object-fit: cover;
+}
+
+
+.skill__meter {}
