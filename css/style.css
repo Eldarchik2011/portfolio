@@ -298,3 +298,39 @@ h6 {
 
 
 .skill__meter {}
+
+
+.demo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: #d4fbff;
+}
+.container {
+    margin: 0 auto;
+}
+.demo__content {
+    width: 540px;
+    height: 147px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-title {
+}
+.demo__title {
+    margin-bottom: 46px;
+}
+.subtitle {
+}
+.demo__subtitle {
+    
+}
+.demo__video-wrap {
+    margin-top: 54px;
+    width: 1110px;
+    height: 600px;
+}
+.demo__video {
+    height: 100%;
+    width: 100%;
+}
