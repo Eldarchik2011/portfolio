@@ -23,6 +23,7 @@ img {
 
 .wrapper {
     min-height: 100%;
+    overflow: hidden;
 }
 
 
@@ -306,31 +307,122 @@ h6 {
     width: 100%;
     background-color: #d4fbff;
 }
+
 .container {
+    width: 1116px;
     margin: 0 auto;
+    padding: 0 5px;
 }
+
 .demo__content {
     width: 540px;
     height: 147px;
     text-align: center;
     margin: 0 auto;
 }
-.section-title {
-}
+
+.section-title {}
+
 .demo__title {
     margin-bottom: 46px;
 }
-.subtitle {
-}
-.demo__subtitle {
-    
-}
+
+.subtitle {}
+
+.demo__subtitle {}
+
 .demo__video-wrap {
     margin-top: 54px;
-    width: 1110px;
+    width: 100%;
     height: 600px;
+    position: relative;
+    background-color: #34537a7a;
+    transition: 0.5s;
 }
+
+.demo__video-wrap:hover {
+    background-color: #34537a00;
+    transition: 0.5s;
+}
+
 .demo__video {
     height: 100%;
     width: 100%;
+}
+
+.demo__video-btn {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+
+
+.demo__video-btn:hover {
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: 0.3s;
+}
+
+
+.projects__item {
+    flex: 1 0 25%;
+}
+
+.work {}
+
+.work__link {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.work__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work__overlay {
+    position: absolute;
+    background-color: rgba(52, 84, 122, 0.8);
+    width: 100%;
+    height: 0;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.5s ease-in;
+
+}
+
+
+
+.work__overlay-img {}
+
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work__link:hover .work__overlay {
+    height: 100%;
+    transition: 0.5s ease-out;
+
+}
+
+
+.work__overlay-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
