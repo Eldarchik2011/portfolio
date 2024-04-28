@@ -56,8 +56,9 @@ h6 {
 }
 
 .container {
-    max-width: 1106px;
+    max-width: 1170px;
     margin: 0 auto;
+    padding: 0px 5px;
 }
 
 .header {
@@ -310,11 +311,7 @@ h6 {
     background-color: #d4fbff;
 }
 
-.container {
-    width: 1116px;
-    margin: 0 auto;
-    padding: 0 5px;
-}
+
 
 .demo__content {
     width: 540px;
@@ -428,3 +425,137 @@ h6 {
     height: 100px;
     object-fit: contain;
 }
+
+
+
+
+.clients {
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+
+
+.clients__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+.clients__item {
+    flex: 0 1 255px;
+}
+
+.feedback {
+    background-color: #d4ffee;
+    padding: 100px 0px;
+}
+
+.feedback__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.feedback__desc {
+    text-align: center;
+}
+
+
+
+.feedback__title {}
+
+
+
+.feedback__subtitle {
+    margin-bottom: 65px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__inputs {
+    margin-bottom: 50px;
+}
+
+.form__row {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form__user-info {
+    width: 50%;
+    background: #fff;
+    min-height: 50px;
+    border: 0;
+}
+
+.form__input {
+    flex: 1;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #5f5d5d;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.form__text {
+    padding-top: 20px;
+    border: 0;
+}
+
+.form__btn-wrap {}
+
+.btn {}
+
+.fotm__btn {}
+
+
+.form__row:last-child {
+    margin: 0;
+}
+
+.footer {
+    min-height: 151px;
+    background-color: #146b55;
+    padding-top: 65px;
+}
+
+.container {}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__desc {}
+
+.footer__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+}
+
+.footer__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 164%;
+    color: #fff;
+}
+
+.footer__list {
+    display: flex;
+    width: 175px;
+    justify-content: space-between;
+}
+
+.footer__item {}
